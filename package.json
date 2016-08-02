@@ -1,0 +1,30 @@
+{
+  "name": "iburger",
+  "version": "1.0.0",
+  "description": "database that inputs userdata and stores it in mysql database",
+  "main": "connection.js",
+  "scripts": {
+    "test": "burger"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tg7/iBurger.git"
+  },
+  "keywords": [
+    "burger",
+    "eat"
+  ],
+  "author": "Todd Germaine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tg7/iBurger/issues"
+  },
+  "homepage": "https://github.com/tg7/iBurger#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.6",
+    "mysql": "^2.11.1"
+  }
+}
